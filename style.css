@@ -1,0 +1,32 @@
+body{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p {
+    font: bold 30px sans-serif;
+}
+button:hover{
+    transform:scale(1.1);
+}
+button:active{
+    transform: scale(1);
+}
+button {
+    cursor: pointer;
+    height: 50px;
+    margin: 4px;
+    transition: all 0.03s;
+    width: 50px;
+}
+button#Rock{
+    background:url('images/Rock.jpg') center/contain no-repeat;
+}
+
+button#Paper {
+    background: url('images/paper.png') center/contain no-repeat;
+}
+
+button#Scissors {
+    background: url('images/scissors.png') center/contain no-repeat;
+}
